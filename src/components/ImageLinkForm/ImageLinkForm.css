@@ -1,0 +1,43 @@
+.form {
+  background: black;
+  padding: 12px;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.image-link-form {
+  width: 30%;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 12px 12px 0;
+  position: absolute;
+}
+
+.input {
+  width: 70%;
+}
+
+.detect-button,
+.detect-button:focus {
+  width: 30%;
+  outline: none;
+  background-color: #000090;
+  border: 1px solid transparent;
+  color: #fff;
+  border-radius: 0 12px 12px 0;
+  cursor: pointer;
+}
+
+.detect-button:hover {
+  background: transparent;
+  border: 1px solid #000090;
+  color: #000090;
+}
+
+.detect-button:active {
+  outline: none;
+  background: transparent;
+  border: 1px solid grey;
+}
